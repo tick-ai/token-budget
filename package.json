@@ -1,0 +1,22 @@
+{
+  "name": "token-budget",
+  "version": "0.1.0",
+  "description": "A Claude Code PreToolUse hook that stops your AI agent when its session has spent its token budget.",
+  "type": "module",
+  "bin": {
+    "token-budget": "token-budget.mjs"
+  },
+  "files": ["token-budget.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["claude-code", "hook", "tokens", "budget", "ai-agents", "guardrails"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/token-budget.git"
+  }
+}
